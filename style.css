@@ -1,0 +1,60 @@
+
+h1, h2 {
+    color: rgba(0, 0, 0, 0.938);
+}
+
+p {
+    color: #000000;
+}
+
+.titulos {
+    background-color: rgb(82, 21, 3);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1cm;
+}
+
+#amarillo {
+    background-color: rgb(212, 191, 3);
+}
+.azul {
+    background-color: rgb(1, 75, 172);
+}
+
+.link {
+    color: #000000;
+    font-style: oblique;
+}
+.link:hover {
+    background-color: #4d4949;
+}
+
+#informacion {
+    background-color: grey;
+    color: rgba(87, 41, 4, 0.979);
+}
+
+.tablehead {
+    background-color: grey;
+    color: purple;
+
+}
+
+table, th, td {
+    border: 4px solid black;
+}
+
+input:hover {
+    background-color: rgb(78, 27, 6);
+}
+
+.tablas {
+    margin-left: 33%;
+}
+
+body {
+    background-image: url("fondomadera.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <h1>HELLO WORLD</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="titulos">
+        <h1>Pablo Ambrosoni Alvarez</h1>
+    </div>
+    <p>
+        Voy a utilizar este texto para poner <span class="azul"><strong>clase</strong></span> y <span
+            id="amarillo"><strong>id</strong></span>
+    </p>
+    <p class="azul">
+        Este parrafo tiene la clase "azul", por eso se muestra azul.
+    </p>
+    <p id="amarillo">
+        Este parrafo tiene el id "amarillo", por eso se muestra amarillo.
+    </p>
+    <p>
+        En color verde esta la clase "link", donde todos los links de la pag van a ser de este color
+    </p>
+    <hr>
+    <ul>
+        <li><a href="#uno" class="link">experiencia profesional</a></li>
+        <li><a href="#dos" class="link">habilidades y conocimientos</a></li>
+        <li><a href="#tres" class="link">educacion</a></li>
+        <li><a href="#cuatro" class="link">perfiles sociales</a></li>
+        <li><a href="#cinco" class="link">contactar</a></li>
+    </ul>
+    <hr>
+    <div class="titulos">
+        <h2 id="uno">Experiencia profesional</h2>
+    </div>
+    <div class="tablas">
+        <table>
+            <tr class="tablehead">
+                <th>Empresa</th>
+                <th>Cargo</th>
+                <th>Localizacion</th>
+                <th>Desde-hasta</th>
+            </tr>
+            <tr id="informacion">
+                <td><img src="hasbulla.jpg" alt="hasbulla" width="90" height="60"></td>
+                <td><img src="hasbulla.jpg" alt="hasbulla" width="90" height="60"></td>
+                <td><img src="hasbulla.jpg" alt="hasbulla" width="90" height="60"></td>
+                <td><img src="hasbulla.jpg" alt="hasbulla" width="90" height="60"></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="titulos">
+        <h2 id="dos">Habilidades y conocimientos</h2>
+    </div>
+    <ul>
+        <li><strong>HTML</strong></li>
+        <li><strong>JAVASCRIPT</strong></li>
+        <li><strong>RUBY</strong></li>
+        <li><strong>GOBSTONES</strong></li>
+    </ul>
+    <hr>
+    <div class="titulos">
+        <h2 id="tres">Educacion</h2>
+    </div>
+    <div class="tablas">
+        <table>
+            <tr class="tablehead">
+                <th>Titulo</th>
+                <th>Entidad</th>
+                <th>Promocion</th>
+            </tr>
+            <tr id="informacion">
+                <td>Desarrollador WEB</td>
+                <td>Jovenes a programar</td>
+                <td>Cursando fase 2</td>
+            </tr>
+            <tr id="informacion">
+                <td>Graduado de liceo</td>
+                <td>Liceo 10 nocturno</td>
+                <td>Cursando 5to cientifico</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="titulos">
+        <h2 id="cuatro">Perfiles sociales</h2>
+    </div>
+    <p> tambien pueden encontrarme en:</p>
+    <ul>
+        <li><a href="https://facebook.com" class="link" target="_blank"><i class="fa fa-facebook icon"></i></a></li>
+        <li><a href="https://github.com/" class="link" target="_blank"><i class="fa fa-github icon"></i></a></li>
+        <li><a href="https://twitter.com/" class="link" target="_blank"><i class="fa fa-twitter icon"></i></a></li>
+        <li><a href="https://linkedin.com/" class="link" target="_blank"><i class="fa fa-linkedin icon"></i></a></li>
+    </ul>
+    <hr>
+    <div class="titulos">
+        <h2 id="cinco">Contactar</h2>
+    </div>
+    <p><strong>Para:</strong><input type="text" name="correo" required></p>
+    <p><strong>Tematica:</strong><select name="elige un tema"></p>
+    <option value="">--Elige un tema--</option>
+    <option value="Consulta">Consulta</option>
+    <option value="Propuesta">Propuesta</option>
+    <option value="Reporte">Reporte</option>
+    <option value="Otro">Otro</option>
+    </select>
+    <p><strong>Asunto:</strong><input type="text" name="Asunto" required></p>
+    <p><strong>Cuerpo:</strong><textarea name="nombre"></textarea>
+    <button type="submit">Enviar</button></p>
 </body>
+
 </html>
